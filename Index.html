@@ -3,10 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Resturan Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" id="menu-toggle">
+            <div class="hamburger-line">
+                <span class="span-line1"></span>
+                <span class="span-line2"></span>
+                <span class="span-line3"></span>
+            </div>
+              <div class="logo">FW</div>
+            <ul class="menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="showcase-area" id="showcase">
+       <div class="showcase-container">
+         <h1 class="main-title">Eat Right Food</h1>
+        <p>eat health food, it is good for your health</p>
+        <a href="#" class="btn btn-primary">Menu</a>
+       </div>
+    </section>
+
+  <section id="about">
+    <div class="about-wrapper container">
+        <div class="about-text">
+            <p class="small">About Us</p>
+            <h2>Lorem ipsum dolor sit, amet  deleniti architecto harum ipsum. </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque, rem inventore impedit molestiae repellat debitis commodi veritatis asperiores. Adipisci molestias doloremque quo! Fuga molestias, soluta fugit debitis neque accusamus!</p>
+        </div>
+        <div class="about-img">
+            <img src="./img/about-img.jpg" alt="About Us">
+        </div>
+    </div>
+  </section>
+
+<section id="food"> 
+    <h2 class="type-of-food ">Types of Food</h2> 
+    <div class="food-container container">
+        
+        <div class="food-type fruit">
+            <div class="img-container">
+                <img src="./img/food1.jpg" alt="">
+                <div class="img-content">
+                    <h3>Fruit</h3>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="food-type vegetable">
+              <div class="img-container">
+                <img src="./img/food2.jpg" alt="">
+                <div class="img-content">
+                    <h3>Vegetable</h3>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="food-type grain">
+              <div class="img-container">
+                <img src="./img/food3.jpg" alt="">
+                <div class="img-content">
+                    <h3>Grain</h3>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</Section>
+
+<section id="food-menu">
+    <h2 class="food-menu-heading">Food Menu</h2>
+
+    <div class="food-menu-container container">
+
+        <!-- Item 1 -->
+        <div class="food-menu-item">
+            <div class="food-img">
+                <img src="./img/food-menu1.jpg"  alt="Food Item">
+            </div>
+            <div class="food-description">
+                <h3 class="food-title">Delicious Pasta</h3>
+                <p>Freshly prepared pasta with rich creamy sauce and herbs.</p>
+                <p class="food-price">Price: &#8377; 250</p>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="food-menu-item">
+            <div class="food-img">
+                <img src="./img/food-menu2.jpg" alt="Food Item">
+            </div>
+            <div class="food-description">
+                <h3 class="food-title">Grilled Chicken</h3>
+                <p>Juicy grilled chicken served with fresh vegetables.</p>
+                <p class="food-price">Price: &#8377; 350</p>
+            </div>
+        </div>
+
+        <!-- Repeat same structure for others -->
+
+    </div>
+</section>
+
+
+<section id="testimonial">
+    <h2 class="testimonial-title ">What our Customer Say</h2>
+    <div class="testimonial-container container">
+        <div class="testimonial-box">
+              <div class="costomer-img">
+                    <img src="./img/male-photo1.jpg" width="300px" height="300px" alt="man1">
+                </div>
+            <p class="testimonial-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam dignissimos eius voluptatum quae rerum consectetur, architecto asperiores corporis a, tempore quasi porro error assumenda aut culpa dicta nobis ea animi.</p>
+            <div class="costomer-details">
+              
+                <div class="coustomer-name">Jhon Doe</div>
+            </div>
+        </div>
+
+            <div class="testimonial-box">
+                           <div class="costomer-img">
+                <img src="./img/male-photo2.jpg" width="300px" height="300px" alt="man3">
+                </div>
+            <p class="testimonial-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam dignissimos eius voluptatum quae rerum consectetur, architecto asperiores corporis a, tempore quasi porro error assumenda aut culpa dicta nobis ea animi.</p>
+            <div class="costomer-details">
+                <div class="coustomer-name">Ray Doe</div>
+            </div>
+        </div>
+        
+            <div class="testimonial-box">
+                 <div class="costomer-img">
+                <img src="./img/male-photo3.jpg " width="300px" height="300px" alt="man3">
+                </div>
+            <p class="testimonial-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam dignissimos eius voluptatum quae rerum consectetur, architecto asperiores corporis a, tempore quasi porro error assumenda aut culpa dicta nobis ea animi.</p>
+            <div class="costomer-details">
+                <div class="coustomer-name">Jholly Doe</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-container container">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="E-mail" required>
+                <textarea rows="5" placeholder="Type your Message Here" required></textarea>
+                <button type="submit" class="btn-primary">Submit</button>
+            </form>
+
+        </div>
+        <div class="contact-img">
+            <img src="./img/restraunt-image.jpg" alt="restaurant-image">
+        </div>
+    </div>
+</section>
+
+
+
+<footer id="footer">
+    <h2>Resturan Website &copy; all right reserved</h2>
+</footer>
+
 </body>
 </html>
